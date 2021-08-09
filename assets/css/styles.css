@@ -155,7 +155,7 @@ html body .mdi-set {
   line-height: initial;
 }
 section {
-  padding: 80px 0 80px;
+  /* padding: 80px 0 80px; */
   position: relative;
 }
 section.bt-mid {
@@ -10081,8 +10081,10 @@ ul.footer_social_links li a {
   }
 }
 
+/* ======================Piyush CSS============= */
 #clients {
-  padding: 40px 0px;
+  background-color: #f1f1f1;
+  padding: 50px 0px;
 }
 
 #clients .client i {
@@ -10099,13 +10101,32 @@ ul.footer_social_links li a {
   display: inline-block;
   padding: 20px 0px;
 }
+.natural-gems {
+  padding: 50px 0px;
+}
+
+.natural-gems h3 {
+  color: #8e410c;
+
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.gems-category {
+  padding: 50px 0px;
+}
+.gems-category h3 {
+  color: #8e410c;
+
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
 
 .gems-category img {
-  vertical-align: middle;
   margin: 0;
+  width: 100%;
 
   transition: all 0.5s ease;
-  max-width: 150px;
 }
 
 .gems-category h6,
@@ -10137,6 +10158,15 @@ p {
 }
 .natural-gems .image p {
   color: #8e410c;
+}
+
+.cat-section {
+  padding: 50px 0px;
+}
+.cat-section h3 {
+  color: #8e410c;
+  margin-bottom: 35px;
+  text-transform: uppercase;
 }
 
 .perl-collection {
@@ -10191,4 +10221,130 @@ p {
   -ms-transform: translatey(0);
   -webkit-transform: translatey(0);
   transform: translatey(0);
+}
+
+.gem-beads {
+  padding: 50px 0px;
+}
+.gem-beads h3 {
+  color: #8e410c;
+
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.gem-beads .beads {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.gem-beads .beads img {
+  border-radius: 10px;
+}
+.gem-beads .beads p:hover {
+  color: #c4672a;
+}
+
+.gem-jewl {
+  padding: 50px 0px;
+  background-color: #f1f1f1;
+}
+
+.gem-jewl h3 {
+  color: #8e410c;
+
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.gem-jewl img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.gem-jewl p {
+  color: #8e410c;
+  cursor: pointer;
+}
+.gem-jewl p:hover {
+  color: #c4672a;
+}
+
+.crystal-sec {
+  padding: 50px 0px;
+}
+
+.crystal-sec h3 {
+  color: #8e410c;
+
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.crystal-sec .crystal {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.crystal-sec .crystal img {
+  border-radius: 10px;
+}
+.crystal-sec .crystal p:hover {
+  color: #c4672a;
+}
+.liked-gems {
+  padding: 50px 0px;
+  background-color: #f1f1f1;
+}
+.liked-gems h3 {
+  color: #8e410c;
+
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+.liked-gems .owl-item .client img {
+  border-radius: 15px;
+}
+.section {
+  padding: 50px 0px;
+}
+
+.section .box {
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px rgb(0 0 0 / 25%);
+  cursor: pointer;
+}
+.section .box img {
+  cursor: pointer;
+}
+.section .box h6 {
+  color: #8e410c;
+}
+
+/* ==========media query============ */
+@media (max-width: 992px) {
+  .gems-category .container {
+    max-width: 1023px;
+  }
+   .container {
+    padding: 0px 12px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0px 12px;
+  }
+  .cat-section .container{
+    padding: 0 15px;
+  }
+  .gems-category .gem-card img {
+    width: 100%;
+  }
+  .gems-category .gem-card h6 {
+    font-size: 16px;
+  }
+}
+
+
 }
