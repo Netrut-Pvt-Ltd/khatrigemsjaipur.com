@@ -10086,14 +10086,16 @@ ul.footer_social_links li a {
   background-color: #f1f1f1;
   padding: 50px 0px;
 }
+#clients h2 {
+  color: #8e410c;
+}
 
 #clients .client i {
   float: left;
   font-size: 24px;
+  color: #8e410c;
 }
-#clients .client p {
-  padding-left: 40px;
-}
+
 #clients .client_name img {
   width: 100px;
 }
@@ -10101,6 +10103,18 @@ ul.footer_social_links li a {
   display: inline-block;
   padding: 20px 0px;
 }
+#clients .client_name ul li h6 {
+  color: #8e410c;
+}
+
+#clients .client p {
+  color: #fc7b50 !important;
+}
+
+#clients .owl-dot {
+  display: none;
+}
+
 .natural-gems {
   padding: 50px 0px;
 }
@@ -10303,6 +10317,9 @@ p {
 .liked-gems .owl-item .client img {
   border-radius: 15px;
 }
+.liked-gems .owl-dots {
+  display: none;
+}
 .section {
   padding: 50px 0px;
 }
@@ -10318,6 +10335,43 @@ p {
 }
 .section .box h6 {
   color: #8e410c;
+}
+.astro-banner {
+  padding: 50px 0px;
+}
+.astro-banner img {
+  cursor: pointer;
+}
+.choose-sec {
+  padding: 50px 0px;
+}
+.choose-sec h3 {
+  color: #8e410c;
+  padding: 10px 0px;
+}
+.choose-sec .certi-sec img {
+  width: 100%;
+  max-width: 80px;
+  margin: 0 auto;
+}
+.choose-sec h6,
+p {
+  color: #8e410c;
+}
+.choose-sec h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+.choose-sec p {
+  letter-spacing: 0.5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.slider-banner img {
+  width: 100%;
+  height: auto;
 }
 
 /* ==========media query============ */
@@ -10354,5 +10408,47 @@ p {
     margin: auto;
   }
   .gem-beads .col-4 {
+    padding: 0px 7px;
+  }
+  .gem-beads h3 {
+    font-size: 19px;
+  }
+  .natural-gems .col-4 {
+    padding: 0px 7px;
+  }
+  .natural-gems h3,
+  .gem-jewl h3 {
+    font-size: 19px;
+  }
+  .gem-jewl .col-4 {
+    padding: 0px 7px;
+  }
+  .crystal-sec h3 {
+    font-size: 19px;
+  }
+  .crystal-sec .col-4 {
+    padding: 0px 7px;
+  }
+  .liked-gems h3 {
+    font-size: 19px;
+  }
+  .liked-gems .owl-nav {
+    display: none;
+  }
+  #clients .owl-nav {
+    display: none;
+  }
+  .choose-sec h6 {
+    font-size: 12px;
+  }
+  .gems-category h3 {
+    font-size: 19px;
+  }
+  .perl-collection:hover h2 {
+    font-size: 18px;
+    margin-top: 13%;
+  }
+  .perl-collection:hover .overlay button {
+    padding: 10px 15px;
   }
 }
