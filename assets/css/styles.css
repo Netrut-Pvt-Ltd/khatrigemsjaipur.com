@@ -10325,7 +10325,7 @@ p {
   .gems-category .container {
     max-width: 1023px;
   }
-   .container {
+  .container {
     padding: 0px 12px;
     max-width: 100%;
   }
@@ -10335,7 +10335,7 @@ p {
     max-width: 100%;
     padding: 0px 12px;
   }
-  .cat-section .container{
+  .cat-section .container {
     padding: 0 15px;
   }
   .gems-category .gem-card img {
@@ -10344,7 +10344,15 @@ p {
   .gems-category .gem-card h6 {
     font-size: 16px;
   }
-}
-
-
+  .section .box {
+    width: 86%;
+    margin: auto;
+  }
+  .cat-section .perl-collection {
+    width: 85%;
+    float: none;
+    margin: auto;
+  }
+  .gem-beads .col-4 {
+  }
 }
