@@ -10374,6 +10374,46 @@ p {
   height: auto;
 }
 
+.header_top_bar {
+  background-color: #383c45;
+  padding: 10px 0px;
+  vertical-align: center;
+}
+.header_top_bar p {
+  text-transform: lowercase;
+  color: #fff;
+}
+.header_top_bar .menu {
+  text-align: right;
+  color: #fff;
+}
+.gems-category .btn {
+  background-color: #2d84c7;
+}
+
+.gems-category .img-card {
+  width: 100%;
+}
+.gems-category .img-card img {
+  width: 100%;
+}
+
+.general_head_right .menu .mobile {
+  cursor: pointer;
+}
+.header_top_bar .mail {
+  cursor: pointer;
+}
+
+.general_head_right i {
+  color: #2d84c7;
+}
+
+.nav-menu ul li a {
+  color: #2d84c7;
+  text-decoration: none;
+}
+
 /* ==========media query============ */
 @media (max-width: 992px) {
   .gems-category .container {
