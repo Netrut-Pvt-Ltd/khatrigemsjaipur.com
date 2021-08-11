@@ -3306,7 +3306,7 @@ nav a:hover {
   position: absolute;
   top: 50%;
   margin-top: -7px;
-  right: 15px;
+  /* right: 15px; */
   cursor: pointer;
 }
 .general_header .nav-toggle {
@@ -10151,7 +10151,6 @@ ul.footer_social_links li a {
 }
 .natural-gems .image {
   cursor: pointer;
-  height: 350px;
 }
 .natural-gems p {
   cursor: pointer;
@@ -10159,7 +10158,8 @@ ul.footer_social_links li a {
 .natural-gems .image img {
   float: left;
   max-width: 100%;
-
+  height: 300px;
+  object-fit: cover;
   border-radius: 10px;
 }
 .natural-gems .image p {
@@ -10256,6 +10256,8 @@ ul.footer_social_links li a {
 }
 .gem-beads .beads img {
   border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
 }
 .gem-beads .beads p:hover {
   color: #c4672a;
@@ -10276,6 +10278,8 @@ ul.footer_social_links li a {
 .gem-jewl img {
   border-radius: 10px;
   cursor: pointer;
+  height: 300px;
+  object-fit: cover;
 }
 
 .gem-jewl p {
@@ -10303,6 +10307,8 @@ ul.footer_social_links li a {
 }
 .crystal-sec .crystal img {
   border-radius: 10px;
+  height: 300px;
+  object-fit: cover;
 }
 .crystal-sec .crystal p:hover {
   color: #c4672a;
@@ -10456,6 +10462,9 @@ ul.footer_social_links li a {
   .gem-beads h3 {
     font-size: 19px;
   }
+  .gem-beads .beads img {
+    height: 250px;
+  }
   .natural-gems .col-4 {
     padding: 0px 7px;
   }
@@ -10466,11 +10475,20 @@ ul.footer_social_links li a {
   .gem-jewl .col-4 {
     padding: 0px 7px;
   }
+  .gem-jewl img {
+    height: 250px;
+  }
+  .natural-gems .image img {
+    height: 250px;
+  }
   .crystal-sec h3 {
     font-size: 19px;
   }
   .crystal-sec .col-4 {
     padding: 0px 7px;
+  }
+  .crystal-sec .crystal img {
+    height: 250px;
   }
   .liked-gems h3 {
     font-size: 19px;
@@ -10493,6 +10511,50 @@ ul.footer_social_links li a {
   }
   .perl-collection:hover .overlay button {
     padding: 10px 15px;
+  }
+}
+@media (max-width: 576px) {
+  .natural-gems .image img {
+    height: 200px;
+  }
+  .gem-beads .beads img {
+    height: 200px;
+  }
+  .gem-jewl img {
+    height: 200px;
+  }
+  .crystal-sec .crystal img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  .natural-gems .image img {
+    height: 150px;
+  }
+  .gem-beads .beads img {
+    height: 150px;
+  }
+  .gem-jewl img {
+    height: 150px;
+  }
+  .crystal-sec .crystal img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 360px) {
+  .natural-gems .image img {
+    height: 108px;
+  }
+  .gem-beads .beads img {
+    height: 108px;
+  }
+  .gem-jewl img {
+    height: 108px;
+  }
+  .crystal-sec .crystal img {
+    height: 108px;
   }
 }
 
@@ -10521,5 +10583,9 @@ ul.footer_social_links li a {
 .about_us .right_box p {
   color: #000;
   text-align: justify;
-  margin: 15px 0px;
+  /* margin: 15px 0px; */
+}
+
+header .nav-toggle {
+  right: none;
 }
