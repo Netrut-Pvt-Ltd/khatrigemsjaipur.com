@@ -10115,17 +10115,6 @@ ul.footer_social_links li a {
   display: none;
 }
 
-.natural-gems {
-  padding: 50px 0px;
-}
-
-.natural-gems h3 {
-  color: #8e410c;
-
-  margin-bottom: 35px;
-  text-transform: uppercase;
-}
-
 .gems-category {
   padding: 50px 0px;
 }
@@ -10138,13 +10127,13 @@ ul.footer_social_links li a {
 
 .gems-category img {
   margin: 0;
-  width: 100%;
-
+  max-width: 100%;
+  max-height: 100%;
   transition: all 0.5s ease;
 }
 
 .gems-category h6,
-p {
+.gems-category p {
   color: #8e410c;
 }
 
@@ -10153,7 +10142,7 @@ p {
 }
 
 .gems-category .gem-card h6,
-p {
+.gems-category .gem-card p {
   text-transform: uppercase;
 }
 
@@ -10162,16 +10151,30 @@ p {
 }
 .natural-gems .image {
   cursor: pointer;
+  height: 350px;
 }
 .natural-gems p {
   cursor: pointer;
 }
 .natural-gems .image img {
-  width: 100%;
+  float: left;
+  max-width: 100%;
+
   border-radius: 10px;
 }
 .natural-gems .image p {
   color: #8e410c;
+}
+
+.natural-gems {
+  padding: 50px 0px;
+}
+
+.natural-gems h3 {
+  color: #8e410c;
+
+  margin-bottom: 35px;
+  text-transform: uppercase;
 }
 
 .cat-section {
@@ -10355,7 +10358,7 @@ p {
   margin: 0 auto;
 }
 .choose-sec h6,
-p {
+.choose-sec p {
   color: #8e410c;
 }
 .choose-sec h6 {
@@ -10491,4 +10494,32 @@ p {
   .perl-collection:hover .overlay button {
     padding: 10px 15px;
   }
+}
+
+/* =========about us page======= */
+.about_us .head p {
+  color: black;
+  text-transform: capitalize;
+}
+
+.about_us .mail {
+  color: #000;
+}
+.about_us .mail a {
+  text-decoration: underline;
+  color: #000;
+  text-transform: lowercase;
+}
+.about_us .box2_right ul {
+  margin-top: 50px;
+}
+
+.about_us .box2_right ul li p {
+  color: #000;
+}
+
+.about_us .right_box p {
+  color: #000;
+  text-align: justify;
+  margin: 15px 0px;
 }
