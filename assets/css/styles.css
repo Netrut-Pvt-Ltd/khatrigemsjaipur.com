@@ -10423,6 +10423,27 @@ ul.footer_social_links li a {
   text-decoration: none;
 }
 
+.column li {
+  padding: 10px 10px;
+}
+.mega-box {
+  width: 1000px;
+  left: 180px;
+}
+
+ul.flex-div {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.flex-div li {
+  width: 24%;
+  padding: 10px 15px;
+}
+.flex-div li a {
+  border-bottom: 1px solid #ccc;
+}
+
 /* ==========media query============ */
 @media (max-width: 992px) {
   .gems-category .container {
@@ -10431,6 +10452,15 @@ ul.footer_social_links li a {
   .container {
     padding: 0px 12px;
     max-width: 100%;
+  }
+  ul.flex-div {
+    display: block;
+  }
+  .flex-div li {
+    width: 100%;
+    padding: 10px 50px;
+    border-bottom: 1px solid #252731;
+    padding: 12px 20px 12px 30px;
   }
 }
 @media (max-width: 768px) {
