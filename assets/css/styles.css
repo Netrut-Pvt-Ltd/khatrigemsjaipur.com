@@ -10467,11 +10467,13 @@ ul.flex-div {
 
 /* ==========media query============ */
 @media (max-width: 992px) {
+  /* .general_header .col-lg-6 {
+    width: 48%;
+  } */
   .gems-category .container {
     max-width: 100%;
   }
   .container {
-    padding: 0px 12px;
     max-width: 100%;
   }
   ul.flex-div {
@@ -10487,13 +10489,12 @@ ul.flex-div {
     display: inline-block;
   }
   .general_head_right ul li {
-    padding-left: 10px;
+    /* padding-left: 10px; */
   }
 }
 @media (max-width: 768px) {
   .container {
     max-width: 100%;
-    padding: 0px 12px;
   }
   .cat-section .container {
     padding: 0 15px;
@@ -10571,6 +10572,9 @@ ul.flex-div {
   }
 }
 @media (max-width: 576px) {
+  .general_header .nav-brand img {
+    max-width: 100%;
+  }
   .natural-gems .image img {
     height: 200px;
   }
@@ -10586,6 +10590,9 @@ ul.flex-div {
 }
 
 @media (max-width: 575px) {
+  .general_header .nav-brand img {
+    max-width: 150px;
+  }
   .natural-gems .image img {
     height: 150px;
   }
@@ -10597,6 +10604,13 @@ ul.flex-div {
   }
   .crystal-sec .crystal img {
     height: 150px;
+  }
+  .general_header .general_head_right li {
+    padding: 0px;
+    /* margin-right: 3px; */
+  }
+  .general_header .general_head_right i {
+    font-size: 15px;
   }
 }
 
@@ -10612,6 +10626,13 @@ ul.flex-div {
   }
   .crystal-sec .crystal img {
     height: 108px;
+  }
+  .general_header .general_head_right li {
+    padding: 0px;
+    margin-right: 3px;
+  }
+  .general_header .general_head_right i {
+    font-size: 15px;
   }
 }
 
@@ -10701,4 +10722,20 @@ header .nav-toggle {
 }
 .gray .btn-theme:hover {
   background-color: #ff5722;
+}
+
+/* ===============Single Product========== */
+.gray .blog-detail-wrap .img-holder {
+  display: flex;
+  justify-content: center;
+}
+.gray .side-blog-list .blog-list-img {
+  height: 60px;
+}
+.gray .side-blog-list .blog-list-info a:hover {
+  color: #ff5722;
+}
+
+.gray .side-list ul li a:hover {
+  color: #ff5722;
 }
