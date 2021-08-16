@@ -4160,7 +4160,7 @@ nav a {
   color: #333333 !important;
 }
 .nav-brand img {
-  max-width: 150px;
+  max-width: 125px;
   position: relative;
 }
 
@@ -10082,6 +10082,20 @@ ul.footer_social_links li a {
 }
 
 /* ======================Piyush CSS============= */
+ul.icons-social {
+  float: right;
+  clear: right;
+}
+
+ul.icons-social li {
+  display: inline-block;
+  margin-top: 26px;
+  padding: 0px 15px;
+}
+ul.icons-social li i:hover {
+  color: #ff5722;
+}
+
 #clients {
   background-color: #f1f1f1;
   padding: 50px 0px;
@@ -10385,7 +10399,7 @@ ul.footer_social_links li a {
 
 .header_top_bar {
   background-color: #f4f5f7;
-  padding: 10px 0px;
+  /* padding: 4px 0px; */
   vertical-align: center;
 }
 .header_top_bar p {
@@ -10462,11 +10476,31 @@ ul.flex-div {
   padding: 10px 15px;
 }
 .flex-div li a {
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+ul.footer_social_links li a:hover {
+  background-color: #fff;
+}
+
+ul.footer_social_links li a i:hover {
+  color: #000;
 }
 
 /* ==========media query============ */
 @media (max-width: 992px) {
+  .general_header .nav-brand img {
+    max-width: 120px;
+  }
+  ul.icons-social {
+    float: none;
+  }
+  ul.icons-social li i {
+    color: #fff;
+  }
+  .navigation-portrait .nav-toggle {
+    right: 0;
+  }
   /* .general_header .col-lg-6 {
     width: 48%;
   } */
@@ -10573,7 +10607,7 @@ ul.flex-div {
 }
 @media (max-width: 576px) {
   .general_header .nav-brand img {
-    max-width: 100%;
+    max-width: 100px;
   }
   .natural-gems .image img {
     height: 200px;
@@ -10591,7 +10625,7 @@ ul.flex-div {
 
 @media (max-width: 575px) {
   .general_header .nav-brand img {
-    max-width: 150px;
+    max-width: 100px;
   }
   .natural-gems .image img {
     height: 150px;
@@ -10637,6 +10671,9 @@ ul.flex-div {
 }
 
 /* =========about us page======= */
+.about_us {
+  background-color: #f4f5f7;
+}
 .about_us .head p {
   color: black;
   text-transform: capitalize;
