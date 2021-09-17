@@ -10101,13 +10101,13 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 #clients h2 {
-  color: #8e410c;
+  color: #2d8dca;
 }
 
 #clients .client i {
   float: left;
   font-size: 24px;
-  color: #8e410c;
+  color: #2d8dca;
 }
 
 #clients .client_name img {
@@ -10118,11 +10118,11 @@ ul.icons-social li i:hover {
   padding: 20px 0px;
 }
 #clients .client_name ul li h6 {
-  color: #8e410c;
+  color: #2d8dca;
 }
 
 #clients .client p {
-  color: #fc7b50 !important;
+  color: #383c45 !important;
 }
 
 #clients .owl-dot {
@@ -10133,7 +10133,7 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 .gems-category h3 {
-  color: #8e410c;
+  color: #2d8dca;
 
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -10148,7 +10148,7 @@ ul.icons-social li i:hover {
 
 .gems-category h6,
 .gems-category p {
-  color: #8e410c;
+  color: #383c45;
 }
 
 .gems-category .gem-card img:hover {
@@ -10178,7 +10178,7 @@ ul.icons-social li i:hover {
   border-radius: 10px;
 }
 .natural-gems .image p {
-  color: #8e410c;
+  color: #383c45;
 }
 
 .natural-gems {
@@ -10186,7 +10186,7 @@ ul.icons-social li i:hover {
 }
 
 .natural-gems h3 {
-  color: #8e410c;
+  color: #2d8dca;
 
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -10196,7 +10196,8 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 .cat-section h3 {
-  color: #8e410c;
+  /* color: #8e410c; */
+  color: #2d8dca;
   margin-bottom: 35px;
   text-transform: uppercase;
 }
@@ -10259,7 +10260,7 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 .gem-beads h3 {
-  color: #8e410c;
+  color: #2d8dca;
 
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -10284,7 +10285,7 @@ ul.icons-social li i:hover {
 }
 
 .gem-jewl h3 {
-  color: #8e410c;
+  color: #2d8dca;
 
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -10298,7 +10299,7 @@ ul.icons-social li i:hover {
 }
 
 .gem-jewl p {
-  color: #8e410c;
+  color: #383c45;
   cursor: pointer;
 }
 .gem-jewl p:hover {
@@ -10310,7 +10311,7 @@ ul.icons-social li i:hover {
 }
 
 .crystal-sec h3 {
-  color: #8e410c;
+  color: #2d8dca;
 
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -10333,7 +10334,7 @@ ul.icons-social li i:hover {
   background-color: #f1f1f1;
 }
 .liked-gems h3 {
-  color: #8e410c;
+  color: #2d8dca;
 
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -10358,7 +10359,7 @@ ul.icons-social li i:hover {
   cursor: pointer;
 }
 .section .box h6 {
-  color: #8e410c;
+  color: #2d8dca;
 }
 .astro-banner {
   padding: 50px 0px;
@@ -10370,7 +10371,7 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 .choose-sec h3 {
-  color: #8e410c;
+  color: #2d8dca;
   padding: 10px 0px;
 }
 .choose-sec .certi-sec img {
@@ -10380,7 +10381,7 @@ ul.icons-social li i:hover {
 }
 .choose-sec h6,
 .choose-sec p {
-  color: #8e410c;
+  color: #383c45;
 }
 .choose-sec h6 {
   text-transform: uppercase;
@@ -10436,7 +10437,7 @@ ul.icons-social li i:hover {
   width: 100%;
 }
 .gems-category .button .btn {
-  background-color: #8e410c;
+  background-color: #2d8dca;
 }
 .gems-category .button .btn:hover {
   background-color: #ff5722;
@@ -10444,7 +10445,7 @@ ul.icons-social li i:hover {
 }
 
 .natural-gems .button .btn {
-  background-color: #8e410c;
+  background-color: #2d8dca;
 }
 .natural-gems .button .btn:hover {
   background-color: #ff5722;
@@ -10496,6 +10497,10 @@ ul.footer_social_links li a i:hover {
   color: #000;
 }
 
+.gallery_back {
+  background-color: #eff6fa;
+  padding: 15px 0px;
+}
 /* ==========media query============ */
 @media (max-width: 992px) {
   .general_header .nav-brand img {
@@ -10630,6 +10635,10 @@ ul.footer_social_links li a i:hover {
   .crystal-sec .crystal img {
     height: 200px;
   }
+  .header_top_bar p {
+    text-align: center;
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -10686,6 +10695,8 @@ ul.footer_social_links li a i:hover {
 .about_us .head p {
   color: black;
   text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .about_us .mail {
@@ -10720,7 +10731,7 @@ header .nav-toggle {
 }
 .gray .btn-primary,
 .btn-primary.disabled {
-  background: #8e410c;
+  background: #2d8dca;
   border: 1px solid transparent;
 }
 
@@ -10732,7 +10743,7 @@ header .nav-toggle {
   background-color: #dee7e7;
 }
 .breadcrumbs_title {
-  color: #8e410c;
+  color: #2d8dca;
 }
 
 .theme-bg {
@@ -10740,10 +10751,10 @@ header .nav-toggle {
 }
 .theme-bg .call_action_wrap-head h3,
 .theme-bg .call_action_wrap-head span {
-  color: #8e410c;
+  color: #383c45;
 }
 .newsletter_box .btn.search_btn {
-  color: #8e410c;
+  color: #2d8dca;
 }
 
 /* =======================Products Page============= */
@@ -10784,4 +10795,95 @@ header .nav-toggle {
 
 .gray .side-list ul li a:hover {
   color: #ff5722;
+}
+
+/* ==================Lightbox Gallery================== */
+.lightbox-gallery {
+  background-image: linear-gradient(#4a148c, #e53935);
+  background-repeat: no-repeat;
+  color: #000;
+  overflow-x: hidden;
+}
+
+.lightbox-gallery p {
+  color: #fff;
+}
+
+.lightbox-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .lightbox-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.lightbox-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.lightbox-gallery .intro p {
+  margin-bottom: 0;
+}
+
+.lightbox-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.lightbox-gallery .item {
+  padding-bottom: 30px;
+}
+
+/* ================fancybox========= */
+
+#demo {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.green {
+  background-color: #6fb936;
+}
+.thumb {
+  margin-bottom: 30px;
+}
+
+.page-top {
+  margin-top: 85px;
+}
+
+img.zoom {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  color: #000;
+}
+.modal-footer {
+  display: none;
 }
