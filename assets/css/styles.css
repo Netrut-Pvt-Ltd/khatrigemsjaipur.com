@@ -48,6 +48,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&amp;display=swap");
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,600,700");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;500;600;700&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 /*------------------------------------
 	Preloader
 ------------------------------------*/
@@ -114,19 +117,19 @@ a.link:hover,
 a.link:focus,
 a:hover,
 a:focus {
-  color: #5dbf13;
+  color: #2d8dca;
 }
 a.text-success:focus,
 a.text-success:hover {
-  color: #2ea033 !important;
+  color: #2d8dca !important;
 }
 a.text-primary:focus,
 a.text-primary:hover {
-  color: #5dbf13 !important;
+  color: #2d8dca !important;
 }
 a.text-warning:focus,
 a.text-warning:hover {
-  color: #ff9b20 !important;
+  color: #2d8dca !important;
 }
 a.text-danger:focus,
 a.text-danger:hover {
@@ -3387,6 +3390,7 @@ nav a:hover {
 }
 
 .nav-menu > li {
+  font-family: "Merriweather", sans-serif;
   display: inline-block;
   float: left;
   text-align: left;
@@ -4347,7 +4351,8 @@ div#mySearch {
 
 /*--------------- cart Menu --------------*/
 .general_header .nav-menu > li > a {
-  color: #31429a;
+  /* color: #31429a; */
+  color: #2d8dca;
   font-weight: 500;
 }
 .general_head_right {
@@ -10101,6 +10106,8 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 #clients h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
 }
 
@@ -10132,11 +10139,19 @@ ul.icons-social li i:hover {
 .gems-category {
   padding: 50px 0px;
 }
-.gems-category h3 {
+.gems-category .head_category h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
 
-  margin-bottom: 35px;
+  margin-bottom: 11px;
   text-transform: uppercase;
+}
+.gems-category .head_category p {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 20px;
+  color: #383c45;
 }
 
 .gems-category img {
@@ -10185,21 +10200,36 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 
-.natural-gems h3 {
+.natural-gems .head_natural h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
 
-  margin-bottom: 35px;
+  margin-bottom: 11px;
   text-transform: uppercase;
+}
+.natural-gems .head_natural p {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 20px;
+  color: #383c45;
 }
 
 .cat-section {
   padding: 50px 0px;
 }
 .cat-section h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   /* color: #8e410c; */
   color: #2d8dca;
-  margin-bottom: 35px;
+  margin-bottom: 11px;
   text-transform: uppercase;
+}
+.cat-section p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .perl-collection {
@@ -10225,8 +10255,11 @@ ul.icons-social li i:hover {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.perl-collection .overlay h2 {
+.perl-collection .overlay .btn {
   margin-top: 26%;
+  background-color: #2d8dca;
+  outline: none;
+  border: 0;
 }
 
 .perl-collection img {
@@ -10259,11 +10292,18 @@ ul.icons-social li i:hover {
 .gem-beads {
   padding: 50px 0px;
 }
-.gem-beads h3 {
+.gem-beads .head_beads h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
 
-  margin-bottom: 35px;
+  margin-bottom: 11px;
   text-transform: uppercase;
+}
+.gem-beads .head_beads p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .gem-beads .beads {
@@ -10284,11 +10324,19 @@ ul.icons-social li i:hover {
   background-color: #f1f1f1;
 }
 
-.gem-jewl h3 {
+.gem-jewl .head-jewl h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
 
-  margin-bottom: 35px;
+  margin-bottom: 11px;
   text-transform: uppercase;
+}
+.gem-jewl .head-jewl p {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  margin-bottom: 20px;
+  color: #383c45;
 }
 
 .gem-jewl img {
@@ -10334,6 +10382,8 @@ ul.icons-social li i:hover {
   background-color: #f1f1f1;
 }
 .liked-gems h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
 
   margin-bottom: 35px;
@@ -10359,6 +10409,8 @@ ul.icons-social li i:hover {
   cursor: pointer;
 }
 .section .box h6 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
 }
 .astro-banner {
@@ -10371,6 +10423,8 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 .choose-sec h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
   color: #2d8dca;
   padding: 10px 0px;
 }
@@ -10455,8 +10509,11 @@ ul.icons-social li i:hover {
 .general_head_right .menu .mobile {
   cursor: pointer;
 }
-.header_top_bar .mail {
+.header_top_bar .mail,
+.header_top_bar .mobile {
   cursor: pointer;
+  color: #2d8dca;
+  font-family: "Merriweather", sans-serif;
 }
 
 .general_head_right i {
@@ -10744,6 +10801,8 @@ header .nav-toggle {
 }
 .breadcrumbs_title {
   color: #2d8dca;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
 }
 
 .theme-bg {
@@ -10886,4 +10945,11 @@ img.zoom {
 }
 .modal-footer {
   display: none;
+}
+
+.newsletter_box .btn {
+  background-color: #2d8dca;
+}
+ul.icons-social a {
+  color: #2d8dca;
 }
