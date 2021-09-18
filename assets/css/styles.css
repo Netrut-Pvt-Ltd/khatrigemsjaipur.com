@@ -10106,9 +10106,12 @@ ul.icons-social li i:hover {
   padding: 50px 0px;
 }
 #clients h2 {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", sana-serif;
   font-weight: 600;
   color: #2d8dca;
+}
+#clients hgroup p {
+  font-family: "Merriweather", sans-serif;
 }
 
 #clients .client i {
@@ -10316,7 +10319,7 @@ ul.icons-social li i:hover {
   object-fit: cover;
 }
 .gem-beads .beads p:hover {
-  color: #c4672a;
+  color: #2d8dca;
 }
 
 .gem-jewl {
@@ -10324,7 +10327,7 @@ ul.icons-social li i:hover {
   background-color: #f1f1f1;
 }
 
-.gem-jewl .head-jewl h3 {
+.gem-jewl .head-jewls h3 {
   font-family: "Merriweather", serif;
   font-weight: 600;
   color: #2d8dca;
@@ -10332,7 +10335,7 @@ ul.icons-social li i:hover {
   margin-bottom: 11px;
   text-transform: uppercase;
 }
-.gem-jewl .head-jewl p {
+.gem-jewl .head-jewls p {
   font-size: 20px;
   font-family: "Merriweather", serif;
   margin-bottom: 20px;
@@ -10350,8 +10353,8 @@ ul.icons-social li i:hover {
   color: #383c45;
   cursor: pointer;
 }
-.gem-jewl p:hover {
-  color: #c4672a;
+.gem-jewl .jewl-sec p:hover {
+  color: #2d8dca;
 }
 
 .crystal-sec {
